@@ -1,0 +1,328 @@
+html,body{
+  height:100%;
+  width:100%;
+  font-size: 20px;
+  color: #800020;
+  
+}
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4{
+  font-size: 0.6em;
+}
+body{
+  background-color: #b666a4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+#logo{
+  width:85px;
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 1px;
+  left:35%;
+  border: whitesmoke dashed;
+}
+.banner{
+  background-color: #a95094;
+  margin: 10px;
+  padding: 10px;
+  height: 160px;
+  width: 90%;
+  border: 3px solid#f0f0f0;
+  font-family: Lucida Handwriting, cursive;
+ 
+}
+
+.menu{
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 2em;
+  text-align: left;
+  z-index: 1;
+  border: 3px #f0f0;
+}
+.menu a{
+  background-color:   #DABCB2;
+  color: floralwhite;
+  padding: 2.5px;
+  font-size: 1.5em;
+  display: none;
+}
+.menu:hover a{
+  display: block;
+  
+}
+.menu a:hover{
+  color:#wheat;
+  background-color: #E0D5c8;
+}
+.container{
+  border: 2px solid #f0f0f0;
+  background-image: repeating-linear-gradient(#cd97c1 20px);
+  height: 550px;
+  overflow: hidden;
+}
+.wave{
+  border: 1px dashed #f0f0f0;;
+  background-image: repeating-radial-gradient(#91447f, #c27eb2, 20px);
+  height: 20px;
+  width:80%;
+  position: relative;
+  left: 10%;
+  transition: height 4s;
+  display: block;
+  overflow: hidden;
+  color: #711D31;
+}
+#u1{
+  transition: height 4s;
+}
+#u1:hover{
+  height: 450px;
+  z-index: 1;
+}
+#u2{
+  transition: height 4s;
+}
+#u2:hover{
+  height: 450px;
+  z-index: 1;
+}
+#u3{
+  transition: height 4s;
+}
+#u3:hover{
+  height: 450px;
+  z-index: 1;
+}
+#u4{
+  transition: height 4s;
+}
+#u4:hover{
+  height: 450px;
+  z-index: 1;
+}
+#left{
+  position: absolute;
+  left: 1px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid whitesmoke;
+  width: 49.5%;
+  height: 550px;
+}
+
+#right{
+  position: absolute;
+  right: 1px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid whitesmoke;
+  width: 49.5%;
+  height: 500px;
+}
+#top{
+  position: relative;
+  top: 5px;
+  bottom: 5px;
+  left: 1px;
+  right: 1px;
+  border: 1px solid white;
+  padding: 2px;
+  margin: 2px;
+  width: 99%;
+}
+#prj{
+  border: 1px solid darkgrey;
+}
+#dn{
+  border: 1px solid darkgrey;
+}
+#l1-1{
+  transition: height 4s;
+}
+#l1-1:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-2{
+  transition: height 4s;
+}
+#l1-2:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-3{
+  transition: height 4s;
+}
+#l1-3:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-4{
+  transition: height 4s;
+}
+#l1-4:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-5{
+  transition: height 4s;
+}
+#l1-5:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-6{
+  transition: height 4s;
+}
+#l1-6:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-7{
+  transition: height 4s;
+}
+#l1-7:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-8{
+  transition: height 4s;
+}
+#l1-8:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-9{
+  transition: height 4s;
+}
+#l1-9:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-10{
+  transition: height 4s;
+}
+#l1-10:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-11{
+  transition: height 4s;
+}
+#l1-11:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l1-12{
+  transition: height 4s;
+}
+#l1-12:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-1{
+  transition: height 4s;
+}
+#l2-1:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-2{
+  transition: height 4s;
+}
+#l2-2:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-3{
+  transition: height 4s;
+}
+#l2-3:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-4{
+  transition: height 4s;
+}
+#l2-4:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-5{
+  transition: height 4s;
+}
+#l2-5:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-6{
+  transition: height 4s;
+}
+#l2-6:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l2-7{
+  transition: height 4s;
+}
+#l2-7:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-1{
+  transition: height 4s;
+}
+#l3-1:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-2{
+  transition: height 4s;
+}
+#l3-2:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-3{
+  transition: height 4s;
+}
+#l3-3:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-4{
+  transition: height 4s;
+}
+#l3-4:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-5{
+  transition: height 4s;
+}
+#l3-5:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-6{
+  transition: height 4s;
+}
+#l3-6:hover{
+  height: 450px;
+  z-index: 1;
+}
+#l3-7{
+  transition: height 4s;
+}
+#l3-7:hover{
+  height: 450px;
+  z-index: 1;
+}
